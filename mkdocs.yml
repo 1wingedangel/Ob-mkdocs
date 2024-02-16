@@ -5,13 +5,13 @@ site_author: Vergilius
 
 theme:
     name: 'material'
-    logo: assets/meta/favicons.png
-    favicon: assets/meta/favicons.png
+    logo: assets/meta/favicons.jpg
+    favicon: assets/meta/favicons.jpg
     custom_dir: overrides
     font:
         text: Ubuntu
         code: Ubuntu Mono
-    language: en
+    language: zh
     palette:
 
     # Light mode
