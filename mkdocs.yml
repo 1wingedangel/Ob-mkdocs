@@ -1,7 +1,7 @@
-site_name: $site_name # Change this to your site name
-site_description: $site_description
-site_url: $site_url # Change this to your site URL
-site_author: $site_author
+site_name: 菠萝炒乌鸫 # Change this to your site name
+site_description: 看起来并不好吃
+site_url: https://1wingedangel.github.io/Ob-mkdocs # Change this to your site URL
+site_author: Vergilius
 
 theme:
     name: 'material'
@@ -11,7 +11,7 @@ theme:
     font:
         text: Ubuntu
         code: Ubuntu Mono
-    language: $language
+    language: en
     palette:
 
     # Light mode
@@ -84,7 +84,7 @@ plugins:
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: true
-      locale: $language
+      locale: en
       custom_format: "%A %d %B %Y"
       enable_creation_date: true
   - ezlinks:
@@ -124,10 +124,10 @@ extra_css:
     - assets/css/customization.css
 extra:
   SEO: assets/meta/SEO.png
-  comments: $comments #disable comments globally
-  generate_graph: $generate_graph #generate the graph of the site
+  comments: False #disable comments globally
+  generate_graph: True #generate the graph of the site
   attachments: 'assets/img' #path to the folder where the attachments are stored
-  no-auto-h1: $auto_h1 #disable the automatic generation of h1 if no h1 is found
+  no-auto-h1: False #disable the automatic generation of h1 if no h1 is found
   blog_list:
     pagination: true #enable pagination
     pagination_message: true #display the message "Showing x posts out of y"
