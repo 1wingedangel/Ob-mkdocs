@@ -1,3 +1,3 @@
 ---
-template: blog.html
+template: "overrides/blog.html"
 ---
