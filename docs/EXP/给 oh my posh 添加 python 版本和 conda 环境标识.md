@@ -1,13 +1,17 @@
 ---
 title: 给 oh my posh 添加 python 版本和 conda 环境标识
 class: activity
-status: working
+status: done
 created-date: 2024-03-08T10:16:46.059+08:00
 tags:
   - date/2024/03/08
+  - oh-my-posh
+  - Powershell
+  - python
 aliases: 
 share: true
 category: EXP
+related: 
 ---
 
 %%
