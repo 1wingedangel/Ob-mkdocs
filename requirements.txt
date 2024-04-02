@@ -14,4 +14,4 @@ mkdocs-glightbox==0.3.7
 obsidiantools==0.10.0
 pyvis==0.3.2
 cairosvg==2.7.1
-pillow==10.2.0
+pillow==10.3.0
